@@ -15,4 +15,8 @@ public class StudentModel {
     public String getEmail() {
         return email;
     }
+
+    public void showStudent() {
+        System.out.println("Estudiante: " + name + " - " + email);
+    }
 }
